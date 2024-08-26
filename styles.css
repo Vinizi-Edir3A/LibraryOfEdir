@@ -1,0 +1,40 @@
+body {
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "Cormorant Unicase", serif;
+}
+
+header {
+    border-bottom: solid 4px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 70px;
+}
+
+section {
+    background: rgb(35, 35, 35);
+    padding-top: 1px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+img {
+    height: 270px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid black;
+}
